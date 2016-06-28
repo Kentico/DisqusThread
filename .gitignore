@@ -22,3 +22,6 @@
 !/CMS/App_Data/CIRepository/@global/cms.webpart/
  /CMS/App_Data/CIRepository/@global/cms.webpart/*
 !/CMS/App_Data/CIRepository/@global/cms.webpart/disqusthread.xml
+!/CMS/App_Data/CIRepository/@global/cms.webpartcategory/
+ /CMS/App_Data/CIRepository/@global/cms.webpartcategory/*
+!/CMS/App_Data/CIRepository/@global/cms.webpartcategory/kentico.xml
