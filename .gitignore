@@ -1,0 +1,24 @@
+# Ignore all
+*
+# Add .gitignore
+!/.gitignore
+
+# Add web part files
+!/CMS/
+ /CMS/*
+!/CMS/CMSWebParts/
+ /CMS/CMSWebParts/*
+!/CMS/CMSWebParts/Kentico/
+ /CMS/CMSWebParts/Kentico/*
+!/CMS/CMSWebParts/Kentico/DisqusThread.ascx*
+
+# Add CI data (XML-serialized DB data)
+!/CMS/App_Data/
+ /CMS/App_Data/*
+!/CMS/App_Data/CIRepository/
+ /CMS/App_Data/CIRepository/*
+!/CMS/App_Data/CIRepository/@global/
+ /CMS/App_Data/CIRepository/@global/*
+!/CMS/App_Data/CIRepository/@global/cms.webpart/
+ /CMS/App_Data/CIRepository/@global/cms.webpart/*
+!/CMS/App_Data/CIRepository/@global/cms.webpart/disqusthread.xml
