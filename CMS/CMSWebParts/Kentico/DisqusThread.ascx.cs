@@ -370,6 +370,7 @@ var disqus_config = function () {{
 		var user = CurrentUser;
 		if (!user.IsPublic())
 		{
+			//TODO: Improve user profile URL (take from "Member profile path" setting) + parametrize user properties
 			return GetPayloadForAuthenticatedUser(user.UserID.ToString(), user.FullName, user.Email, 
 				URLHelper.GetAbsoluteUrl(AvatarInfoProvider.GetUserAvatarImageUrl(user.UserAvatarID, null, null, 0, 0, 0)),
 				URLHelper.GetAbsoluteUrl("TODO"));
@@ -387,18 +388,18 @@ var disqus_config = function () {{
 	/// <param name="userId">The unique ID to associate with the user</param>
 	/// <param name="userName">Non-unique name shown next to comments.</param>
 	/// <param name="userEmail">User's email address, defined by RFC 5322</param>
-	/// <param name="avatarUrl">URL of the avatar image</param>
-	/// <param name="websiteUrl">Website, blog or custom profile URL for the user, defined by RFC 3986</param>
+	/// <param name="userAvatarUrl">URL of the avatar image</param>
+	/// <param name="userProfileUrl">Website, blog or custom profile URL for the user, defined by RFC 3986</param>
 	/// <returns>A string containing the signed payload</returns>
-	private static string GetPayloadForAuthenticatedUser(string userId, string userName, string userEmail, string avatarUrl = "", string websiteUrl = "")
+	private static string GetPayloadForAuthenticatedUser(string userId, string userName, string userEmail, string userAvatarUrl = "", string userProfileUrl = "")
 	{
 		var userdata = new
 		{
 			id = userId,
 			username = userName,
 			email = userEmail,
-			avatar = avatarUrl,
-			url = websiteUrl
+			avatar = userAvatarUrl,
+			url = userProfileUrl
 		};
 
 		return GeneratePayload(new JavaScriptSerializer().Serialize(userdata));
