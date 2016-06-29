@@ -21,7 +21,7 @@
  /CMS/App_Data/CIRepository/@global/*
 !/CMS/App_Data/CIRepository/@global/cms.webpart/
  /CMS/App_Data/CIRepository/@global/cms.webpart/*
-!/CMS/App_Data/CIRepository/@global/cms.webpart/disqusthread.xml
+!/CMS/App_Data/CIRepository/@global/cms.webpart/kentico.disqusthread.xml
 !/CMS/App_Data/CIRepository/@global/cms.webpartcategory/
  /CMS/App_Data/CIRepository/@global/cms.webpartcategory/*
-!/CMS/App_Data/CIRepository/@global/cms.webpartcategory/kentico.xml
+!/CMS/App_Data/CIRepository/@global/cms.webpartcategory/kentico.kentico.xml
