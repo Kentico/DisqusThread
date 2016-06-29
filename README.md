@@ -14,10 +14,11 @@ A web part for [Kentico](https://www.kentico.com) that adds [Disqus Engage](http
   3. Serialize all objects to disk
   4. Open a command prompt
   5. Navigate to the root of your project (where the .sln file is)
+  6. Fork this repo
   6. Init a git repo and fetch the web part
   
         git init
-        git remote add origin https://github.com/Kentico/DisqusThread.git
+        git remote add origin https://github.com/owner/repo.git
         git fetch
         git checkout -t origin/master
 
@@ -25,7 +26,14 @@ A web part for [Kentico](https://www.kentico.com) that adds [Disqus Engage](http
   
         Kentico\CMS\bin\ContinuousIntegration.exe -r
 
-  8. You are ready to start making changes
+  8. Make changes
+  9. Use combination of `git add`, `git commit` and `git push` to transfer your changes to GitHub
+  
+        git status
+        git commit -a -m "Fixed XY"
+        git push
+
+  10. Submit a pull request
   
 ## Compatibility
 Tested with Kentico 8.1, 8.2, 9.0.
