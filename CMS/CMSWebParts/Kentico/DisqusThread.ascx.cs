@@ -418,7 +418,7 @@ var disqus_config = function () {{
 
 	private static string GeneratePayload(string serializedUserData)
 	{
-		byte[] userDataAsBytes = Encoding.ASCII.GetBytes(serializedUserData);
+		byte[] userDataAsBytes = Encoding.UTF8.GetBytes(serializedUserData);
 
 		// Base64 Encode the message
 		string Message = Convert.ToBase64String(userDataAsBytes);
