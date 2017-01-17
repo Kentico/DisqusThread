@@ -5,7 +5,7 @@ A web part for [Kentico](https://www.kentico.com) that adds [Disqus Engage](http
  1. Download the latest package from [Release](https://github.com/Kentico/DisqusThread/releases)
  2. In Kentico, go to the Sites application
  3. Select "Import sites or objects"
- 4. Upload the package and import it
+ 4. Upload the package and import it (don't forget to check the "Import code files" checkbox)
  5. Now you are ready to use it in the Pages application
  
 ## Contributing
