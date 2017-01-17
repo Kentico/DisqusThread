@@ -36,7 +36,7 @@ A web part for [Kentico](https://www.kentico.com) that adds [Disqus Engage](http
   10. Submit a pull request
   
 ## Compatibility
-Tested with Kentico 8.1, 8.2, 9.0.
+Tested with Kentico 8.1, 8.2, 9.0, 10.0
 
 ## [Questions & Support](https://github.com/Kentico/Home/blob/master/README.md)
 
