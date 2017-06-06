@@ -20,7 +20,7 @@ A web part for [Kentico](https://www.kentico.com) that adds [Disqus Engage](http
         git init
         git remote add origin https://github.com/owner/repo.git
         git fetch
-        git checkout -t origin/master
+        git checkout origin/master -ft
 
   7. Restore DB data
   
