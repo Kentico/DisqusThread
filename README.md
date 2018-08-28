@@ -42,3 +42,4 @@ Tested with Kentico 8.1, 8.2, 9.0, 10.0
 
 ## [License](https://github.com/Kentico/DisqusThread/blob/master/LICENSE.txt)
   
+![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/Kentico/DisqusThread?pixel)
